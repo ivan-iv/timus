@@ -1,9 +1,9 @@
 from sys import stdin
 
-def add(a, b):
+def solution(s):
+    [a, b] = map(int, s.split())
+
     return a + b
 
 if __name__ == '__main__':
-    [a, b] = map(int, stdin.read().split())
-
-    print(add(a, b))
+    print(solution(stdin.read()))
