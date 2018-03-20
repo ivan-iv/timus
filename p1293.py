@@ -1,8 +1,10 @@
 from sys import stdin
 
 def solution(s):
-    # Write your solution here
-    pass
+    [n, a, b] = map(int, s.split())
+
+    return a * b * n * 2
 
 if __name__ == "__main__":
     print(solution(stdin.read()))
+

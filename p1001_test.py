@@ -1,7 +1,7 @@
 import unittest
 import p1001
 
-class Test1000(unittest.TestCase):
+class Test(unittest.TestCase):
     def test1(self):
         got = (
             "1427  0\n"
